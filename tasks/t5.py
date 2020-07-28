@@ -17,7 +17,14 @@ class BankAccount:
         self.balance = balance
         self.overdraft = overdraft
 
-    # your code goes here
+    def deposit(self, money):
+        # your code goes here
+        pass
+
+    def withdrawn(self, money):
+        # your code goes here
+        pass
+
 
 
 myAccount = BankAccount(100)

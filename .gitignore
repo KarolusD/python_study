@@ -1,2 +1,6 @@
 .vscode
 /venv
+/tasks/__pycache__
+/__pycache__
+.pytest_cache
+/pytest/__pycache__

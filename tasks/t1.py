@@ -7,6 +7,5 @@ Example:
 '''
 
 
-def reverseStr(str):
-    # your code goes here
-    pass  # delete this line it does nothing
+def reverse_str(str):
+    return str
