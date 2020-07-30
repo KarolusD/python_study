@@ -9,6 +9,7 @@ Example:
 
 
 def remove_special_char(str):
+<<<<<<< HEAD
     str_l= list(str)
     spec_char='!@#$%^&*()_-–+[]''"\\|;:,./?~`'
     abc=''
@@ -49,3 +50,7 @@ print(remove_special_char('!@#$%^&*()_-–g+[]''"\\|;:,./?~'))
 
 
     
+=======
+    # your code goes here
+    pass  # delete this line it does nothing
+>>>>>>> 3e019487c0191bf5e4cada8962afcca6683761bb

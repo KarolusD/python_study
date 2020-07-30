@@ -6,6 +6,7 @@ Example:
 "Dawid" => "diwaD"
 '''
 
+<<<<<<< HEAD
 def reverse_str(str):
     abc=''
     str_l = list(str)
@@ -14,3 +15,8 @@ def reverse_str(str):
     return  abc 
 
 print(reverse_str("Dawid"))
+=======
+
+def reverse_str(str):
+    return str
+>>>>>>> 3e019487c0191bf5e4cada8962afcca6683761bb

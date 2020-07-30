@@ -5,6 +5,7 @@ it will return data of 10 users,
 loop through users names and print 
 fist name of each user.
 '''
+<<<<<<< HEAD
 import requests,json
 response = requests.get('https://randomuser.me/api?results=10')
 
@@ -20,3 +21,5 @@ def first_name(res):
         print(user["name"]["first"])
 
 first_name(data["results"])
+=======
+>>>>>>> 3e019487c0191bf5e4cada8962afcca6683761bb
