@@ -18,12 +18,10 @@ class BankAccount:
         self.overdraft = overdraft
 
     def deposit(self, money):
-<<<<<<< HEAD
         self.balance += money
         self.overdraft_balance()
         print(self.balance)
         
-
     def withdrawn(self, money):
         self.balance -= money
         self.overdraft_balance()
@@ -36,17 +34,6 @@ class BankAccount:
 
 myAccount = BankAccount(100)
 myAccount.withdrawn(101)
-=======
-        # your code goes here
-        pass
 
-    def withdrawn(self, money):
-        # your code goes here
-        pass
-
-
-
-myAccount = BankAccount(100)
->>>>>>> 3e019487c0191bf5e4cada8962afcca6683761bb
 print(myAccount.balance)
 print(myAccount.overdraft)

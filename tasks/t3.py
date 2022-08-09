@@ -9,7 +9,6 @@ Example:
 
 
 def remove_special_char(str):
-<<<<<<< HEAD
     str_l= list(str)
     spec_char='!@#$%^&*()_-–+[]''"\\|;:,./?~`'
     abc=''
